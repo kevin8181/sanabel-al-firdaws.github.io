@@ -28,17 +28,12 @@ export default defineConfig({
 				minHeadingLevel: 1,
 				maxHeadingLevel: 6,
 			},
-			customCss: [
-				"./src/styles/custom.css",
-				"./src/fonts/font-face.css",
-			],
 			components: {
-				ThemeProvider: "./src/components/starlight/ThemeProvider.astro",
+				Head: "./src/components/starlight/Head.astro",
 			},
 			title: "سنابل الفردوس",
 			description: "موقع يهتم بنشر العلم النافع",
 			// titleDelimiter: '-',
-			defaultLocale: "en",
 			sidebar: [
 				{
 					label: "The Book Of Aqida",
